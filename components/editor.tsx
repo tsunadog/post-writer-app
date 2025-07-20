@@ -10,7 +10,7 @@ import LinkTool from "@editorjs/link";
 import EditorjsList from "@editorjs/list";
 import CodeTool from "@editorjs/code";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { Post } from "@/generated/prisma";
+import { Post } from "@prisma/client";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { postPatchSchema, postPatchSchemaType } from "@/lib/validations/post";

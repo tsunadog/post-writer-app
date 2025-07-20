@@ -1,6 +1,6 @@
 "use client";
 
-import { Post } from "@/generated/prisma";
+import { Post } from "@prisma/client";
 import {
   DropdownMenu,
   DropdownMenuContent,

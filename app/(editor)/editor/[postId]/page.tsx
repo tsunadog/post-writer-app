@@ -1,7 +1,7 @@
 import Editor from "@/components/editor";
 import { db } from "@/lib/db";
 import { getCurrentUser } from "@/lib/session";
-import { Post, User } from "@/generated/prisma";
+import { Post, User } from "@prisma/client";
 import { notFound, redirect } from "next/navigation";
 
 interface EditorProps {

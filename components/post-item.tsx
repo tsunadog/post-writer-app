@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Post } from "@/generated/prisma";
+import { Post } from "@prisma/client";
 import { format } from "date-fns";
 import PostOperations from "./post-operations";
 
